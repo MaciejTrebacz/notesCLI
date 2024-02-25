@@ -15,7 +15,7 @@ type Saver interface {
 }
 
 type Note struct {
-	Title     string `json:"titleTag___"`
+	Title     string `json:"titleTag____"`
 	Content   string
 	CreatedAt time.Time
 }
